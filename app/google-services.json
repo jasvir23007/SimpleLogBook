@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "205754120513",
+    "firebase_url": "https://simplelogbook-ff748-default-rtdb.firebaseio.com",
+    "project_id": "simplelogbook-ff748",
+    "storage_bucket": "simplelogbook-ff748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205754120513:android:b51d0b128ca8adaaae49c0",
+        "android_client_info": {
+          "package_name": "com.jasvir.simplelogbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205754120513-gak7n75m2fuu347qvj0i877i1d9rclt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNV-RlKBjYKDAD2oIhrcgCYPpPA0-MOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205754120513-gak7n75m2fuu347qvj0i877i1d9rclt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

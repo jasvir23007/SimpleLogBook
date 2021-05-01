@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".frag.NoteAddFragment">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/layout_noteadd_tool_bar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/lbl_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/sample_date"
+                android:textColor="?attr/colorSecondary" />
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:elevation="@dimen/color_card_margin"
+                android:layout_margin="@dimen/color_card_margin"
+                android:hint="@string/title"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+            <EditText
+                android:id="@+id/et_note"
+                android:elevation="@dimen/color_card_margin"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="@string/note"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:layout_margin="@dimen/color_card_margin"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_add_image"
+                android:layout_width="match_parent"
+                android:text="@string/add_images"
+                android:padding="@dimen/color_card_margin"
+                app:drawableEndCompat="@drawable/ic_baseline_add"
+                android:background="@color/cardview_shadow_start_color"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_add_image"
+                android:layout_marginTop="@dimen/color_card_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_drawing"
+                android:padding="@dimen/color_card_margin"
+                android:layout_width="match_parent"
+                android:text="@string/drawing"
+                app:drawableEndCompat="@drawable/ic_baseline_add"
+                android:background="@color/cardview_shadow_start_color"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"/>
+
+
+           <include
+               android:id="@+id/layout_drawing"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="@dimen/color_card_margin"
+               layout="@layout/layout_add_image"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

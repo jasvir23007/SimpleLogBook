@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Simple Log Book</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="default_font" translatable="false">?attr/fontFamily</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_note">Search Note</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_note">Add your note</string>
+    <string name="sample_date">2020/11/23 2:23:00 PM</string>
+    <string name="title">Title</string>
+    <string name="note">Book</string>
+    <string name="no_note_found">No Note Found</string>
+    <string name="waiting_for_internet">Waiting for network</string>
+    <string name="user_name">User name</string>
+    <string name="example_email">example@gmail.com</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="user_profile">User Profile</string>
+    <string name="add_images">Add Images</string>
+    <string name="drawing">Drawing</string>
+    <string name="entries">Entries</string>
+    <string name="add_notes">Add</string>
+    <string name="edit_notes">Edit</string>
+    <string name="text_confirm">Confirm</string>
+    <string name="are_you_sure">Are you sure to delete this?</string>
+    <string name="delete">Delete</string>
+    <string name="are_u_sure_move">Are you sure you want to move this ?</string>
+    <string name="move">Move</string>
+    <string name="welcome_to_firebase_simple_logbook_app_to_use_cloud_storage_accross_multiple_devices_we_suggest_you_to_login_so_that_your_data_is_secure_with_us_and_you_can_use_the_app_on_multiple_devices_otherwise_if_you_dont_want_want_to_use_cloud_storage_you_can_skip_this_and_you_app_data_will_be_accessable_on_this_device_even_if_you_delete_the_app_and_install_in_same_phone_the_data_is_still_secure_with_us">Welcome to firebase simple logbook app to use cloud storage accross multiple devices we suggest you to login so that your data is secure with us and you can use the app on multiple devices otherwise if you dont want want to use cloud storage you can skip this and your app data will be accessible on this device even if you delete the app and install in same phone the data is still secure with us.</string>
+    <string name="skip"><![CDATA[Skip>>]]></string>
+    <string name="sign_in">Sign in</string>
+    <string name="loading">Loading...</string>
+    <string name="confirm">Confirm</string>
+    <string name="are_u_sure_logout">Are you sure to sign out?</string>
+    <string name="singn_out">Sign out</string>
+    <string name="you_cannot_move_to_same">You cannot move to same item.</string>
+    <string name="moved_successfully">Moved successfully please click on item to check</string>
+</resources>
